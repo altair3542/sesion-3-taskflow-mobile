@@ -5,7 +5,7 @@ import { StatusBar } from 'expo-status-bar';
 import { AppHeader } from './src/components/AppHeader';
 import { SummaryCard } from './src/components/SummaryCard';
 import { TaskCard } from './src/components/TaskCard';
-import { initialTasks } from './src/data/initialTasks';
+import { initialTasks } from './src/data/InitialTasks';
 
 export default function App() {
   const [tasks, setTasks] = useState(initialTasks);
